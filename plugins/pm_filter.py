@@ -682,7 +682,7 @@ async def auto_filter(client, msg, spoll=False):
         ]
 
     btn.append(
-    [InlineKeyboardButton("How To Download?", url="https://t.me/EasySky_Link/179"),]
+    [InlineKeyboardButton("How To Download?", url="https://t.me/HEROFLiX/1201"),]
 )
 
     if offset != "":
