@@ -55,7 +55,7 @@ async def start(client, message):
             photo=random.choice(PICS),
             caption=script.START_TXT.format(message.from_user.mention, temp.U_NAME, temp.B_NAME),
             reply_markup=reply_markup,
-            parse_mode=enums.ParseMode.HTML
+            parse_mode='html'
         )
         return
     if AUTH_CHANNEL and not await is_subscribed(client, message):
@@ -83,7 +83,7 @@ async def start(client, message):
             chat_id=message.from_user.id,
             text="**🎗 You Have To Join Our Channel To Use Me 🎗 \n 🎗 मुझे इस्तेमाल करने के लिए हमारे चैनल से जुड़ना होगा 🎗**",
             reply_markup=InlineKeyboardMarkup(btn),
-            parse_mode=enums.ParseMode.MARKDOWN
+            parse_mode='markdown'
             )
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
@@ -101,7 +101,7 @@ async def start(client, message):
             photo=random.choice(PICS),
             caption=script.START_TXT.format(message.from_user.mention, temp.U_NAME, temp.B_NAME),
             reply_markup=reply_markup,
-            parse_mode=enums.ParseMode.HTML
+            parse_mode='html'
         )
         return
     data = message.command[1]
@@ -371,7 +371,7 @@ async def settings(client, message):
         return await message.reply(f"You are anonymous admin. Use /connect {message.chat.id} in PM")
     chat_type = message.chat.type
 
-    if chat_type == enums.ChatType.PRIVATE:
+    if chat_type == "private":
         grpid = await active_connection(str(userid))
         if grpid is not None:
             grp_id = grpid
