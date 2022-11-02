@@ -1,10 +1,10 @@
 class script(object):
-    START_TXT = """<b>🧤Helo {}, I'm <a href=https://telegram.me/{}>{}</a> &amp; I Can Provide Any Movies, Series, Animation etc.,</b> 😇"""
+    START_TXT = """<b>🧤Hello {}, I'm <a href=https://telegram.me/{}>{}</a> &amp; I Can Provide Any Movies, Series, Animation etc.,</b> 😇"""
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """✯ My Name: {}
-✯ Creator: @Mr_Krazy"""
-    SOURCE_TXT = """<b>🔆 彡 [ @HEROFLiX ] 彡 🔆</b>"""
+✯ Creator: @FHDmovies24x7"""
+    SOURCE_TXT = """<b>🔆 彡 [ @FHDmovies24x7 ] 彡 🔆</b>"""
     MANUELFILTER_TXT = """Help: <b>FILTERS »</b>
 
 » <b>Filter is A Feature Where Users can Set Automated Reply to a Specific Word</b>
