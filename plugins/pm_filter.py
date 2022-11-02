@@ -146,7 +146,7 @@ async def advantage_spoll_choker(bot, query):
             k = (movie, files, offset, total_results)
             await auto_filter(bot, query, k)
         else:
-            k = await query.message.edit('<b><i>⚠ No Results, Please Follow Request Tips !!</i></b> \n <b><i>♀ Request Tips › [</i></b><a href="https://graph.org/HeroFlix-Request-Tips-11-01-2"><b><i>Click Here</i></b></a><b><i>]</i></b>')
+            k = await query.message.edit('<b><i>⚠ No Results, Please Follow Request Tips !!</i></b> \n <b><i>♀ Request Tips › [</i></b><a href="https://t.me/HEROFLiX/894"><b><i>Click Here</i></b></a><b><i>]</i></b>')
             await asyncio.sleep(10)
             await k.delete()
 
@@ -759,7 +759,7 @@ async def advantage_spell_chok(msg):
     g_s += await search_gagala(msg.text)
     gs_parsed = []
     if not g_s:
-        k = await msg.reply("<b><i>⚠ No Results, Please Follow Request Tips » https://graph.org/HeroFlix-Request-Tips-11-01-2</b></i>")
+        k = await msg.reply("<b><i>⚠ No Results, Please Follow Request Tips » https://t.me/HEROFLiX/894</b></i>")
         await asyncio.sleep(8)
         await k.delete()
         return
