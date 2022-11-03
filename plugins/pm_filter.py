@@ -97,7 +97,7 @@ async def next_page(bot, query):
     # How to Download button
 
     btn.append(
-    [InlineKeyboardButton("❓ How To Download ❓", url="https://t.me/FHDmovies24x7Official/3377"),]
+    [InlineKeyboardButton("❓ How To Download ❓", url="https://t.me/FHDmovies24x7Official/3415"),]
 )
 
     if n_offset == 0:
@@ -682,7 +682,7 @@ async def auto_filter(client, msg, spoll=False):
         ]
 
     btn.append(
-    [InlineKeyboardButton("❓ How To Download ❓", url="https://t.me/FHDmovies24x7Official/3377"),]
+    [InlineKeyboardButton("❓ How To Download ❓", url="https://t.me/FHDmovies24x7Official/3415"),]
 )
 
     if offset != "":
